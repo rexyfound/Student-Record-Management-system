@@ -1,0 +1,65 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "MinGW64-GTK4",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/mingw64/include",
+                "C:/msys64/mingw64/include/gtk-4.0",
+                "C:/msys64/mingw64/include/graphene-1.0",
+                "C:/msys64/mingw64/include/glib-2.0",
+                "C:/msys64/mingw64/lib/glib-2.0/include",
+                "C:/msys64/mingw64/include/pango-1.0",
+                "C:/msys64/mingw64/include/cairo",
+                "C:/msys64/mingw64/include/gdk-pixbuf-2.0",
+                "C:/msys64/mingw64/include/atk-1.0",
+                "C:/msys64/mingw64/include/harfbuzz"
+            ],
+            "browse": {
+                "path": [
+                    "C:/msys64/mingw64/include",
+                    "C:/msys64/mingw64/include/gtk-4.0",
+                    "C:/msys64/mingw64/include/graphene-1.0",
+                    "C:/msys64/mingw64/include/glib-2.0",
+                    "C:/msys64/mingw64/lib/glib-2.0/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "MinGW64-GTK3",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/mingw64/include",
+                "C:/msys64/mingw64/include/gtk-3.0",
+                "C:/msys64/mingw64/include/graphene-1.0",
+                "C:/msys64/mingw64/include/glib-2.0",
+                "C:/msys64/mingw64/lib/glib-2.0/include",
+                "C:/msys64/mingw64/include/pango-1.0",
+                "C:/msys64/mingw64/include/cairo",
+                "C:/msys64/mingw64/include/gdk-pixbuf-2.0",
+                "C:/msys64/mingw64/include/atk-1.0",
+                "C:/msys64/mingw64/include/harfbuzz"
+            ],
+            "browse": {
+                "path": [
+                    "C:/msys64/mingw64/include",
+                    "C:/msys64/mingw64/include/gtk-3.0",
+                    "C:/msys64/mingw64/include/graphene-1.0",
+                    "C:/msys64/mingw64/include/glib-2.0",
+                    "C:/msys64/mingw64/lib/glib-2.0/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ]
+}

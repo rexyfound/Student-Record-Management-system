@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        
+
+        {
+            "name": "Run GTK App",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/student_app.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
+            "preLaunchTask": "build-gtk"
+        }
+        ,
+        {
+            "name": "Run GTK App (MSYS2 GDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/student_app.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/mingw64/bin/gdb.exe",
+            "pipeTransport": {
+                "pipeProgram": "C:/msys64/mingw64.exe",
+                "pipeArgs": ["-lc"],
+                "debuggerPath": "/mingw64/bin/gdb.exe"
+            },
+            "preLaunchTask": "build-gtk"
+        }
+        ,
+        {
+            "name": "Run GTK App (install + MSYS2 GDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/student_app.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/mingw64/bin/gdb.exe",
+            "pipeTransport": {
+                "pipeProgram": "C:/msys64/mingw64.exe",
+                "pipeArgs": ["-lc"],
+                "debuggerPath": "/mingw64/bin/gdb.exe"
+            },
+            "preLaunchTask": "install-gtk4"
+        }
+    ]
+}
